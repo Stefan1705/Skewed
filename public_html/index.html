@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Skewed</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Stefan Markovic">
+        <meta name="description" content="Skewed site">
+        <meta name="keywords" content="skewed, ...">
+
+        <!--iOS compatibility-->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="Skewed">
+        <link rel="apple-touch-icon" href="apple-icon-144x144.png">
+   
+        <!--Andorid compatibility-->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="Skewed">
+        <link rel="icon" type="image/png" href="android-icon-192x192.png">
+        <!--CSS FILES-->
+
+        <!--Bootstrap-->
+        <link href="bootstrap-4-template/public_html/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="bootstrap-4-template/public_html/css/fonts.css" rel="stylesheet" type="text/css"/>
+
+        <!--Theme CSS-->
+        <link href="bootstrap-4-template/public_html/css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="bootstrap-4-template/public_html/css/responsive.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body class="position-relative" data-spy="scroll" data-target="#main-menu">
+        <!--Header starts-->
+        <header class="fixed-top">
+            <div class="container">
+                <!--Navigation bar starts-->
+                <nav class="navbar navbar-expand-lg navbar-dark align-items-center px-0 py-lg-0">
+                    <!--Logo starts-->
+                    <a class="navbar-brand" href="home">
+                        <img src="bootstrap-4-template/public_html/img/logo.png" alt=""/>
+                    </a><!--Logo ends-->
+                    <!--Hamburger buton starts-->
+                    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button><!--Hamburger buton ends-->
+                    <!--Main navigation list starts-->
+                    <div class="collapse navbar-collapse" id="main-menu">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#about">about us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#video">video</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#team">team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#parallax">parallax</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#principles">principles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#achievements">achievements</a>
+                            </li>
+                        </ul>
+                    </div><!--Main navigation list ends-->
+                </nav> <!--Navigation bar ends-->
+            </div>
+        </header><!--Header ends-->
+        <!--Main starts-->
+        <main>
+            <!--Home section starts-->
+            <section class="home position-relative" id="home" style="background-image:linear-gradient(to right, rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url(bootstrap-4-template/public_html/img/lead.jpg)">
+                <div class="container d-flex justify-content-center align-items-center">
+                    <h1>
+                        Skewed is a <span class="text-primary">slightly wonky</span> landing page template
+                    </h1>
+                </div>
+                <!--Triangle div starts-->
+                <div class="triangle position-absolute">
+                </div> <!--Triangle div ends-->
+            </section> <!--Home section ends-->
+            <!--About section starts-->
+            <section class="about" id="about">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <!--About text starts-->
+                        <div class="col-12 mb-4 col-md-6 mb-md-0">
+                            <article class="about-content">
+                                <h2>About us</h2>
+                                <h5 class="text-primary mb-4">Dolor sit amet, consectetur adipiscing elit.</h5>
+                                <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Phasellus dictum enim diam, at condimentum purus 
+                                    facilisis in. Aenean convallis tempor nulla, 
+                                    in elementum odio ornare vitae. In faucibus
+                                    tempus ante vitae pretium. Ut facilisis elit 
+                                    sapien, sed suscipit ex auctor vitae. </p>
+                                <a href="#" class="btn btn-outline-primary px-5 hvr-float-shadow">
+                                    Find out more
+                                </a>
+                            </article>
+                        </div> <!--About text ends-->
+                        <!--About image starts-->
+                        <div class="col-12 mb-4 col-md-6 mb-md-0">
+                            <figure class="mb-0">
+                                <img class="w-100 d-block"src="bootstrap-4-template/public_html/img/about.jpg" alt=""/>
+                            </figure>
+                        </div> <!--About image ends-->
+                    </div>
+                </div>
+            </section><!--About section ends-->
+            <!--Video section starts-->
+            <section class="video text-center bg-primary position-relative" id="video">
+                <div class="triangle-top position-absolute">
+                </div>
+                <div class="container">
+                    <h2 class="text-white mb-4 section-title">
+                        Video Presentation
+                    </h2>
+                    <h5 class="text-dark mb-5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </h5>
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive" width="560" height="315" src="https://www.youtube.com/embed/uDFpcSc7IcY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="triangle position-absolute">
+
+                </div>
+            </section><!--Video section ends-->
+            <!--Team section starts-->
+            <section class="team text-center" id="team"> 
+                <div class="container">
+                    <h2 class="text-capitalize text-dark mb-4 section-title">meet the team</h2>
+                    <h5 class="text-primary mb-5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </h5>
+                    <div class="row">
+                        <div class="col-12 mb-4 col-md-6 col-lg-3">
+                            <article class="team-member">
+                                <figure class=" position-relative">
+                                    <img src="bootstrap-4-template/public_html/img/team/team-01.jpg" alt=""/>
+                                    <div class="position-absolute bg-primary team-hover d-flex align-items-center justify-content-center">
+                                        <nav>
+                                            <a href="#" class="fab fa-facebook-f"></a>
+                                            <a href="#" class="fab fa-twitter"></a>
+                                        </nav>
+                                    </div>
+                                </figure>
+                                <h4 class="text-dark">Jonathan Smith</h4>
+                                <p class="text-primary">Designer</p>
+                            </article>
+                        </div>
+                        <div class="col-12 mb-4 col-md-6 col-lg-3">
+                            <article class="team-member">
+                                <figure class=" position-relative">
+                                    <img src="bootstrap-4-template/public_html/img/team/team-02.jpg" alt=""/>
+                                    <div class="position-absolute bg-primary team-hover  d-flex align-items-center justify-content-center">
+                                        <nav>
+                                            <a href="#" class="fab fa-facebook-f"></a>
+                                            <a href="#" class="fab fa-twitter"></a>
+                                        </nav>
+                                    </div>
+                                </figure>
+                                <h4 class="text-dark">Jane Donovan</h4>
+                                <p class="text-primary">Designer</p>
+                            </article>
+                        </div>
+                        <div class="col-12 mb-4 col-md-6 col-lg-3">
+                            <article class="team-member">
+                                <figure class=" position-relative">
+                                    <img src="bootstrap-4-template/public_html/img/team/team-03.jpg" alt=""/>
+                                    <div class="position-absolute bg-primary team-hover d-flex align-items-center justify-content-center">
+                                        <nav>
+                                            <a href="#" class="fab fa-facebook-f"></a>
+                                            <a href="#" class="fab fa-twitter"></a>
+                                        </nav>
+                                    </div>
+                                </figure>
+                                <h4 class="text-dark">Sam Davidson</h4>
+                                <p class="text-primary">Designer</p>
+                            </article>
+                        </div>
+                        <div class="col-12 mb-4 col-md-6 col-lg-3">
+                            <article class="team-member">
+                                <figure class="position-relative">
+                                    <img src="bootstrap-4-template/public_html/img/team/team-04.jpg" alt=""/>
+                                    <div class="position-absolute bg-primary team-hover d-flex align-items-center justify-content-center">
+                                        <nav>
+                                            <a href="#" class="fab fa-facebook-f"></a>
+                                            <a href="#" class="fab fa-twitter"></a>
+                                        </nav>
+                                    </div>
+                                </figure>
+                                <h4 class="text-dark">Kelly Johnson</h4>
+                                <p class="text-primary">Designer</p>
+                            </article>
+                        </div>
+
+                    </div>
+                </div>
+            </section> <!--Team section ends-->
+            <!--Parallax section starts-->
+            <section id="parallax" class="parallax text-center" style="background-image:linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(bootstrap-4-template/public_html/img/about.jpg)">       
+                <div class="triangle-top">
+                </div>
+                <div class="container">
+                    <article class="parallax-content">
+                        <h2 class="section-title mb-5 text-white">
+                            Here’s Some Parallax
+                        </h2>
+                        <h5 class="text-primary mb-5">
+                            (If you’re into that kind of thing)
+                        </h5>
+                        <p class="mb-4">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Phasellus dictum enim diam, at condimentum purus facilisis
+                            in. Aenean convallis tempor nulla, in elementum odio ornare
+                            vitae. In faucibus tempus ante vitae pretium. Ut facilisis
+                            elit sapien, sed suscipit ex auctor vitae. 
+                        </p>
+                        <a href="#" class="btn btn-outline-primary px-4">
+                            Find out more
+                        </a>
+                    </article>
+                </div>
+                <div class="triangle-bottom">
+                </div>
+            </section><!--Parallax section ends-->
+            <!--Principles section starts-->
+            <section class="principles" id="principles">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <!--Principles text starts-->
+                        <div class="col-12 mb-4 col-md-6 mb-md-0">
+                            <article class="principles-content">
+                                <h2 class="section-title text-dark">Our Principles</h2>
+                                <h5 class="text-primary mb-4">Dolor sit amet, consectetur adipiscing elit.</h5>
+                                <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Phasellus dictum enim diam, at condimentum purus 
+                                    facilisis in. Aenean convallis tempor nulla, 
+                                    in elementum odio ornare vitae. In faucibus
+                                    tempus ante vitae pretium. Ut facilisis elit 
+                                    sapien, sed suscipit ex auctor vitae. </p>
+                                <a href="#" class="btn btn-outline-primary px-5 hvr-float-shadow">
+                                    Find out more
+                                </a>
+                            </article>
+                        </div> <!--About text ends-->
+                        <!--About image starts-->
+                        <div class="col-12 mb-4 col-md-6 mb-md-0 order-md-first">
+                            <figure class="mb-0">
+                                <img class="w-100 d-block"src="bootstrap-4-template/public_html/img/lead.jpg" alt=""/>
+                            </figure>
+                        </div> <!--About image ends-->
+                    </div>
+                </div>
+            </section><!--Principles section ends-->
+            <!--Portfolio section starts-->
+            <section class="portfolio text-center bg-primary position-relative" id="portfolio">
+                <div class="triangle-top position-absolute">
+                </div>
+                <div class="container">
+                    <h2 class="text-white mb-4 section-title">
+                        Portfolio
+                    </h2>
+                    <h5 class="text-dark mb-5">
+                        Some of our latest work
+                    </h5>
+                    <div class="row">
+                        <div class="col-12 mb-4 col-sm-6 col-lg-3 mb-lg-0">
+                            <figure class="mb-0 portfolio-item"> 
+                                <img src="bootstrap-4-template/public_html/img/portfolio/item-1.jpg" alt=""/>
+                                <a href="#" class="fas fa-search"></a>
+                            </figure>
+                        </div>
+                        <div class="col-12 mb-4 col-sm-6 col-lg-3 mb-lg-0">
+                            <figure class="mb-0 portfolio-item"> 
+                                <img src="bootstrap-4-template/public_html/img/portfolio/item-2.jpg" alt=""/>
+                                <a href="#" class="fas fa-search"></a>
+                            </figure>
+                        </div>
+                        <div class="col-12 mb-4 col-sm-6 col-lg-3 mb-lg-0">
+                            <figure class="mb-0 portfolio-item"> 
+                                <img src="bootstrap-4-template/public_html/img/portfolio/item-3.jpg" alt=""/>
+                                <a href="#" class="fas fa-search"></a>
+                            </figure>
+                        </div>
+                        <div class="col-12 mb-4 col-sm-6 col-lg-3 mb-lg-0">
+                            <figure class="mb-0 portfolio-item"> 
+                                <img src="bootstrap-4-template/public_html/img/portfolio/item-4.jpg" alt=""/>
+                                <a href="#" class="fas fa-search"></a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="triangle position-absolute">
+
+                </div>
+            </section><!--Portfolio section ends-->
+            <!--Achievements section starts-->
+            <section class="achievements text-center" id="achievements"> 
+                <div class="container">
+                    <h2 class="text-capitalize text-dark mb-4 section-title">our achievements</h2>
+                    <h5 class="text-primary mb-5">
+                        We keep track of this stuff!
+                    </h5>
+                    <!--Row starts-->
+                    <div class="row">
+                        <!--First achievement article starts-->
+                        <div class="col-12 mb-4 col-md-6 col-lg-3">
+                            <article class="achievement-item">
+                                <a href="#" class="far fa-flag d-block"></a>
+                                <h2 class="text-primary">265</h2>
+                                <p>Projects Completed</p>
+                            </article>
+                        </div> <!--First achievement article ends-->
+                        <!--Second achievement article starts-->
+                        <div class="col-12 mb-4 col-md-6 col-lg-3">
+                            <article class="achievement-item">
+                                <a href="#" class="far fa-smile d-block"></a>
+                                <h2 class="text-primary">198</h2>
+                                <p>Happy Clients</p>
+                            </article>
+                        </div> <!--Second achievement article ends-->
+                        <!--Third achievement article starts-->
+                        <div class="col-12 mb-4 col-md-6 col-lg-3">
+                            <article class="achievement-item">
+                                <a href="#" class="far fa-lightbulb d-block"></a>
+                                <h2 class="text-primary">1,898</h2>
+                                <p>Problems Solved</p>
+                            </article>
+                        </div> <!--Third achievement article ends-->
+                        <!--Fourth achievement article starts-->
+                        <div class="col-12 mb-4 col-md-6 col-lg-3">
+                            <article class="achievement-item">
+                                <a href="#" class="far fa-moon d-block"></a>
+                                <h2 class="text-primary">365</h2>
+                                <p>All-nighters Pulled</p>
+                            </article>
+                        </div> <!--Fourth achievement article ends-->
+                    </div><!--Row ends-->
+                    <!--Achievement content starts-->
+                    <div class="achievement-content">
+                        <h4 class="text-dark mb-4">
+                            Lorem ipsum dolor sit amet, consectetur <span class="text-primary">adipiscing elit</span>.
+                            Fusce tristique finibus felis, eget molestie eros placerat
+                            vitae. Ut ut ipsum augue.
+                        </h4>
+                        <p class="text-capitalize achievements-ceo">- Alfred Johnson, CEO Youtech</p>
+                    </div><!--Achievement content ends-->
+                </div>
+            </section> <!--Achievements section ends-->
+            <!--Contact form section starts-->
+            <section class="contact text-center bg-primary position-relative" id="contact">
+                <div class="triangle position-absolute">
+                </div>
+                <div class="container">
+                    <h2 class="text-capitalize section-title text-white mb-2">
+                        keep up to date
+                    </h2>
+                    <p class="text-dark contact-subscribe mb-5">
+                        Subscribe to our mailing list
+                    </p>
+                    <form class="contact-form" method="post" action="">
+                        <!--Row div starts-->
+                        <div class="row justify-content-center">
+                            <!--Element starts-->
+                            <div class="form-group col-10 mb-4 col-md-5 col-lg-4 mb-lg-0">
+                                <input class="form-control w-100" type="text" name="name" value="" placeholder="Your name">
+                            </div> <!--Element ends-->
+                            <!--Element starts-->
+                            <div class="form-group col-10 mb-4 col-md-5 col-lg-4 mb-lg-0">
+                                <input class="form-control w-100" type="email" name="email" value="" placeholder="Your email">
+                            </div> <!--Element ends-->
+                            <!--Element starts-->
+                            <div class="form-group col-10 mb-4 col-lg-2 mb-lg-0">
+                                <button type="submit" name="send" value="yes" class="btn btn-dark btn-block">
+                                    Subscribe
+                                </button>
+                            </div> <!--Element ends-->
+                        </div><!--Row div ends-->
+                    </form>
+                </div>
+            </section><!--contact form section ends-->
+            <!--Footer starts-->
+            <footer class="bg-dark">
+                <div class="container justify-content-center align-content-center">
+                    <nav class="footer-social mb-4 social text-center">
+                        <a href="#" class="fab fa-facebook-f hvr-buzz-out"></a>
+                        <a href="#" class="fab fa-twitter hvr-buzz-out"></a>
+                        <a href="#" class="fab fa-google-plus-g hvr-buzz-out"></a>
+                        <a href="#" class="fab fa-dribbble hvr-buzz-out"></a> 
+                        <a href="#" class="fab fa-instagram hvr-buzz-out"></a>
+                    </nav>
+                    <p class="copyright text-center">
+                        Copyright 2015 <span class="text-primary">Skewed</span>. All Rights Reserved 
+                    </p>
+                </div>
+            </footer><!--Footer ends-->
+        </main><!--Main ends-->
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <!--Font awesome icons-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    </body>
+</html>

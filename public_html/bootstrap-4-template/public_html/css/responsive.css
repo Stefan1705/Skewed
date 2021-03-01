@@ -1,0 +1,141 @@
+/*SM breakpoint*/
+@media( min-width:576px){
+
+    .home h1{
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    footer .footer-social a{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 25px;
+        margin: 0 6px;
+    }
+}
+
+
+
+/*MD breakpoint*/
+@media(min-width:768px){
+
+    .home h1{
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    .about{
+        padding: 80px 0;
+    }
+
+    footer .footer-social a{
+        width: 48px;
+        height: 48px;
+        line-height: 48px;
+        font-size: 32px;
+        margin: 0 12px;
+    }
+}
+
+
+
+/*LG breakpoint*/
+@media(min-width:992px){
+
+    .section-title{
+        font-size: 60px;
+        line-height: 70px;
+    } 
+
+    #main-menu{
+        margin:0;
+    }
+
+    .navbar-dark .navbar-nav .nav-link{
+        padding: 15px 10px;
+    }
+
+
+    .home h1{
+        color: #fff;
+        font-size: 82px;
+        line-height: 98px;
+    }
+
+    .home .triangle,
+    .video .triangle,
+    .portfolio .triangle{
+        height: 150px;
+        border-bottom: 75px solid #fff;
+        border-top: 75px solid transparent;
+    }
+
+    .about{
+        padding: 111px 0;
+    }
+
+    .about h2{
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .video,
+    .portfolio{
+        padding: 223px 0;
+    }
+
+    .video .triangle-top,
+    .portfolio .triangle-top{
+        height: 150px;
+        border-top: 75px solid #fff;
+        border-bottom: 75px solid transparent;
+    }
+
+    .team{
+        padding: 114px 0;
+    }
+
+    .team .team-member figure{
+        width: 200px;
+        height: 200px;
+    }
+
+    .parallax{
+        padding: 300px 0;
+    }
+
+    .parallax .triangle-top,
+    .parallax .triangle-bottom{
+        height: 150px;
+        border-top-width: 75px;
+        border-bottom-width: 75px;
+    }
+
+    .contact .contact-subscribe{
+        margin-bottom: 62px;
+    }
+
+    .contact{
+        padding: 165px 0 100px;
+    }
+
+    .contact .triangle{
+        height: 150px;
+        border-bottom: 75px solid transparent;
+        border-top: 75px solid #fff;
+    }
+
+    footer{
+        padding: 52px 10px 60px;
+    }
+}
+
+/*XL breakpoint*/
+@media(min-width:1200px){
+    .team .team-member figure{
+        width: 220px;
+        height: 220px;
+    }
+
+}
